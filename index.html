@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <div class="menu--close"></div>
   <header class="header">
     <div class="container">
       <div class="header__inner">
@@ -21,12 +22,17 @@
         </a>
         <nav class="menu">
           <button class="menu__btn">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
           </button>
           <ul class="menu__list">
+            <li class="menu-close">
+              <button class="menu-close-btn" type="button">
+                <img src="images/close.svg" alt="">
+              </button>
+            </li>
             <li class="menu__item">
               <a class="menu__link" href="#">Black</a>
             </li>
@@ -41,6 +47,37 @@
             </li>
             <li class="menu__item">
               <a class="menu__link" href="#">Pu-erh</a>
+            </li>
+            <li class="mobile-nav">
+              <ul class="mobile-menu">
+                <li class="mobile-menu__item">
+                  <a class="mobile-menu__link" href="#">Contact Us</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a class="mobile-menu__link" href="#">Our Blog</a>
+                </li>
+                <li class="mobile-menu__item">
+                  <a class="mobile-menu__link" href="#">Shipping and Delivery</a>
+                </li>
+              </ul>
+
+              <ul class="mobile-actions">
+                <li class="mobile-actions__item">
+                  <a href="#" class="mobile-actions__link">
+                    <img src="images/cart.svg" alt="cart">
+                  </a>
+                </li>
+                <li class="mobile-actions__item">
+                  <a href="#" class="mobile-actions__link">
+                    <img src="images/user.svg" alt="user">
+                  </a>
+                </li>
+                <li class="mobile-actions__item">
+                  <a href="#" class="mobile-actions__link">
+                    <img src="images/search.svg" alt="search">
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>
