@@ -39,6 +39,20 @@
   .reviews__item.reviews__item--hide {
     display: none;
   }
+
+  /* main-blog */
+  .main-blog {
+    padding: 120px 0;
+  }
+  .main-blog__list {
+    gap: 60px 20px;
+  }
+  .main-blog__img {
+    max-width: 230px;
+  }
+  .main-blog__item {
+    flex-basis: 460px;
+  }
 }
 
 /* max-width: 860px */

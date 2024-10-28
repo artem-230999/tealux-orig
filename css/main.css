@@ -106,3 +106,168 @@
   font-weight: 600;
   font-size: 20px;
 }
+
+
+/* main-blog */
+.main-blog {
+  padding: 150px 0;
+}
+.main-blog__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 58px;
+}
+.main-blog__item {
+  flex-basis: 542px;
+  display: flex;
+  column-gap: 20px;
+  font-size: 13px;
+}
+.main-blog__content {
+  display: flex;
+  flex-direction: column;
+
+}
+.main-blog__title {
+  min-height: 86px;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.main-blog__link {
+  margin-top: auto;
+  position: relative;
+}
+.main-blog__link::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: url('./../images/arrow-right.svg');
+  width: 5px;
+  height: 10px;
+  margin-left: 8px;
+}
+.main-blog__view-all {
+  width: 151px;
+  margin: 72px auto 0;
+  border: 1px solid #151618;
+  padding: 12px 41px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+
+/* mailing-list */
+.mailing-list {
+  padding: 100px 0;
+  background-color: #f7f2ea;
+  background-image: url('./../images/mailing-bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.mailing-list__title {
+  text-align: left;
+}
+.mailing-list__inner {
+  display: flex;
+  gap: 60px 40px;
+}
+.mailing-list__text {
+  flex-basis: 580px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.mailing-list__form {
+  flex-basis: 580px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mailing-list__email {
+  outline: none;
+  border: none;
+  width: 430px;
+  margin-right: 25px;
+  padding: 18px 15px 3px;
+  background-color: transparent;
+  border-bottom: 1px solid #b8b58b;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.mailing-list__email::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #b8b58b;
+}
+.mailing-list__button {
+  border: 1px solid #151618;
+  padding: 12px 41px;
+  font-size: 20px;
+  background-color: #fff;
+}
+.mailing-list__label {
+  margin-top: 16px;
+  padding-left: 10px;
+}
+
+/* checkbox */
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+.checkbox-style {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #151618;
+  background-color: #fff;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbox:checked + .checkbox-style::before {
+ content: '';
+ position: absolute;
+ width: 6px;
+ height: 6px;
+ background-color: #000;
+}
+.checkbox__text {
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+/* priorities */
+.priorities {
+  padding: 150px 0;
+}
+.priorities__list {
+  display: flex;  
+  gap: 30px 45px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.priorities__item {
+  min-width: 248px;
+}
+.priorities__item-title {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.priorities__item-text {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
