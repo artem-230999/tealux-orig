@@ -212,7 +212,7 @@
     gap: 30px 0;
   }
   .reviews__item {
-    flex-basis: 340px;
+    flex-basis: 100%;
   }
 }
 
