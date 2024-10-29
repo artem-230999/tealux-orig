@@ -275,3 +275,74 @@
   font-size: 20px;
   margin-bottom: 40px;
 }
+
+/* footer */
+.footer {
+  padding: 100px 0 20px;
+  background-color: #f7f2ea;
+}
+.footer__inner {
+  margin-bottom: 100px;
+}
+.footer__products {
+}
+.footer__products-title {
+}
+.footer__products-item {
+}
+.footer__products-link {
+}
+.footer__company {
+}
+.footer__company-title {
+}
+.footer__company-item {
+}
+.footer__company-link {
+}
+.footer__blockquote {
+}
+.footer__blockquote-text {
+}
+.footer__blockquote-cite {
+}
+.footer__contacts {
+}
+.footer__contacts-title {
+}
+.footer__contacts-text {
+}
+.footer__nav {
+}
+.footer__nav-logo {
+}
+.footer__logo {
+}
+.footer__nav-contacts {
+}
+.footer__nav-phone {
+}
+.footer__nav-email {
+}
+.footer__social {
+}
+.footer__social-list {
+}
+.footer__social-item {
+}
+.footer__social-link {
+}
+.footer__bottom {
+  display: flex;
+  align-items: center;
+}
+.footer__copy {
+  margin-right: 192px;
+}
+.footer__partners {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.footer__partners-item {
+}
