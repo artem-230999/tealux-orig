@@ -246,6 +246,7 @@
  background-color: #000;
 }
 .checkbox__text {
+  display: inline-block;
   padding-left: 20px;
   font-size: 13px;
   line-height: 1.3;
