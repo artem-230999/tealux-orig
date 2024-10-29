@@ -53,6 +53,30 @@
   .main-blog__item {
     flex-basis: 460px;
   }
+
+  /* mailing-list */
+  .mailing-list {
+    padding: 60px 0;
+  }
+  .mailing-list__title {
+    text-align: center;
+  }
+  .mailing-list__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mailing-list__text {
+    flex-basis: 780px;
+    text-align: center;
+  }
+
+  /* priorities */
+  .priorities {
+    padding: 120px 0;
+  }
+  .priorities__list {
+    gap: 30px 210px;
+  }
 }
 
 /* max-width: 860px */
@@ -150,6 +174,30 @@
   .reviews__item.reviews__item--hide {
     display: block;
   }
+  
+  /* main-blog */
+  .main-blog__list {
+    gap: 30px 0;
+  }
+  .main-blog__item {
+    flex-basis: 542px;
+  }
+  .main-blog__item:nth-child(even) {
+    margin-left: 98px;
+  }
+  .main-blog__img {
+    max-width: 270px;
+  }
+
+  /* mailing-list */
+  .mailing-list__text {
+    flex-basis: 640px;
+  }
+
+  /* priorities */
+  .priorities__list {
+    gap: 30px 80px;
+  }
 }
 
 /* max-width: 680px */
@@ -184,6 +232,11 @@
   /* reviews */
   .reviews__list {
     gap: 30px;
+  }
+
+  /* main-blog */
+  .main-blog__item:nth-child(even) {
+    margin-left: 0;
   }
 }
 
@@ -227,6 +280,99 @@
   }
   .reviews__item {
     flex-basis: 100%;
+  }
+
+  /* main-blog */
+  .main-blog {
+    padding: 60px 0;
+  }
+  .main-blog__img {
+    max-width: 230px;
+  }
+
+  /* mailing-list */
+  .mailing-list {
+    padding: 50px 0;
+  }
+  .mailing-list__inner {
+    gap: 30px 0;
+  }
+  .mailing-list__text {
+    flex-basis: 100%;
+    font-size: 13px;
+  }
+  .mailing-list__form {
+    flex-basis: 100%;
+  }
+  .mailing-list__email {
+    width: 300px;
+    margin-right: 20px;
+  }
+
+  /* priorities */
+  .priorities {
+    padding: 60px 0;
+  }
+  .priorities__list {
+    gap: 50px 0;
+}
+}
+
+/* max-width: 460px */
+@media(max-width: 460px) { 
+  /* main-blog */
+  .main-blog {
+    padding: 50px 0;
+  }
+  .main-blog__list {
+    justify-content: center;
+    gap: 30px 0;
+  }
+  .main-blog__item {
+    display: block;
+    max-width: 270px;
+  }
+  .main-blog__item--hiiden {
+    display: none;
+  }
+  .main-blog__img {
+    max-width: 100%;
+  }
+  .main-blog__title {
+    min-height: auto;
+    margin-bottom: 5px;
+  }
+  .main-blog__author {
+    margin-bottom: 10px;
+  }
+  .main-blog__view-all {
+    margin-top: 30px;
+  }
+  
+  /* mailing-list */
+  .mailing-list__email {
+    width: 200px;
+    margin-right: 10px;
+    padding-left: 10px;
+  }
+  .mailing-list__button {
+    padding: 12px 39px;
+  }
+
+  /* priorities */
+  .priorities {
+    padding: 50px 0;
+  }
+  .priorities__list {
+    row-gap: 40px;
+  }
+  .priorities__item-title {
+    font-size: 20px;
+  }
+  .priorities__item-text {
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
   }
 }
 
